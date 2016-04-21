@@ -1,0 +1,308 @@
+
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('fonts/bebasneue_bold.eot');
+    src: url('fonts/bebasneue_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_bold.woff2') format('woff2'),
+         url('fonts/bebasneue_bold.woff') format('woff'),
+         url('fonts/bebasneue_bold.ttf') format('truetype'),
+         url('fonts/bebasneue_bold.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('fonts/bebasneue_book-webfont.eot');
+    src: url('fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_book-webfont.woff') format('woff'),
+         url('fonts/bebasneue_book-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('fonts/bebasneue_light-webfont.eot');
+    src: url('fonts/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_light-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_light-webfont.woff') format('woff'),
+         url('fonts/bebasneue_light-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_light-webfont.svg#bebas_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('fonts/bebasneue_regular-webfont.eot');
+    src: url('fonts/fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('fonts/fonts/bebasneue_thin-webfont.eot');
+    src: url('fonts/bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_thin-webfont.woff') format('woff'),
+         url('fonts/bebasneue_thin-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_thin-webfont.svg#bebas_neuethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* VERB FONT */
+
+@font-face {
+    font-family: 'verblight';
+    src: url('verblight-webfont.eot');
+    src: url('verblight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('verblight-webfont.woff2') format('woff2'),
+         url('verblight-webfont.woff') format('woff'),
+         url('verblight-webfont.ttf') format('truetype'),
+         url('verblight-webfont.svg#verblight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+font-family: 'bebas_neuebold';
+font-size: 65px;
+text-align: center;
+top: 40px;
+padding-bottom: 30px;
+}
+
+h2 {
+font-family:'bebas_neuebold';
+font-size: 40px;
+color: #333;
+}
+h4 {
+font-family:'bebas_neuebook';
+font-size: 30px;
+color: #333;
+}
+
+
+.hero-image{
+
+	max-width: 100%;
+	height: auto;
+	display:block;
+	background-image: url("img/Wallace-Hero.jpg");
+}
+
+/* @media screen and (max-width: 768x){
+	img{
+		display: none}
+	}
+}  */
+.locations{
+	background-image: url("../img/white-wood-large.jpg");
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+	padding:45px 0px 80px 0px;
+	background-repeat: repeat-y;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.wallace {
+	background-color: #FDC200;
+	height: 534px;
+	position: relative;
+	margin:0;
+	padding-left: 65px;
+	padding-top: 40px;
+
+}
+
+
+ul.whours {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 0px;
+
+}
+.Hours {
+
+}
+
+.row {
+	margin:0;
+}
+
+.nopadding {
+ padding: 0;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.img-responsive {
+	width: 100%;
+	max-width: none;
+}
+ 
+.wallaceimage { 
+	background-image: url("../img/188-wallace.jpg");
+	height: 534px;
+	background-size: cover;
+	background-position: center right;
+}
+
+.dupont-box {
+	padding-top: 35px;
+}
+
+.dhours {
+	background-color: #2F6393;
+	position: relative;
+	margin:0;
+	height: 534px;
+
+}
+
+.dupont-box h2, h3, h4 {
+	color: #FFFFFF;
+}
+
+
+ul.li-dhours {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 0px;
+    color: #FFFFFF;
+
+}
+
+.dup-container {
+	padding-left: 65px;
+	padding-top: 40px;
+}
+
+#footer {
+	background-color: #333232;
+}
+
+.footer h3 {
+	text-align: center;
+	font-family:'bebas_neuebold';
+}
+
+.neighbourhood-box{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.neighbourhood-box h3 {
+    font-family: 'verblight';
+    font-size: 22px;
+    color:#333232;
+}
+
+.partners {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: solid;
+    border-width:1px;
+    border-color: #DDDDDD;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.icon {
+    max-width: 64px;
+}
+
+.story-box{
+    background-image: url("../img/Coffee-beans.jpeg");
+    background-size: cover;
+    position: relative;
+    padding-bottom: 60px;
+    height: 800px;
+
+}
+.story-box h1 {
+    color: #ffffff;
+}
+
+.story-container {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 50%
+    bottom: 30%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.story-container p{
+    color: white;
+    font-size: 16px;
+    font-family: 'verblight';
+    line-height: 150%;
+}
+.story-container h1{
+    font-size: 80px;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 2px;
+    border-color: white;
+     padding-top: 50px;
+
+}
+
+
+.best {
+    max-width: 600px;
+
+}
+
+
+@media screen and (max-width: 768px){
+	h1 { font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding-bottom:0;}
+    h2 { font-size: 2px;}
+    h4 { font-size: 18px;}
+
+    .neighbourhood-box h3 {
+    font-family: 'verblight';
+    font-size: 14px;
+    color:#333232;
+}
+
+    .neighbourhood-box p {
+    font-size: 9px;
+}
+
+    .story-container p{
+    color: white;
+    font-size: 12px;
+}
+
+.best {
+    max-width: 350px;
+    text-align: center;
+}
+
+
+}
+
